@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400&display=swap" rel="stylesheet">
+    <title>A la Barbarrosa</title>
+
+</head>
+<body>
+   
+<div class="centered-form">
+    <form action="/action_page.php">
+            <!--Cabecera-->
+            <div class="container">
+                <img src="/barbarrosa.webp" class="img-fluid" alt="barbarrosa">
+            </div>
+            <!--Fin cabecera-->
+
+            <div class="container pt-5">                
+                <h1>Ingresá tu celular</h1>
+            </div>
+
+          <label for="email" class="form-label">Código de área + número</label>
+          <!--formulario de numero celular-->
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-default">Nº</span>
+            </div>
+            <input type="tel" pattern="[0-9]{1,10}" placeholder="sin 0 ni 15" class="form-control focus-primary" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+          </div>
+          
+         <!-- fin formulario numero celular-->
+
+        <!-- Otro form campo para numeros 
+              <input type="email" class="form-control" id="email" placeholder="Sin 0 ni 15" name="email">
+        -->
+          <br>
+          <button type="submit" class="btn btn-primary">Continuar</button>
+    
+    </form>
+
+
+</div>
+<footer>
+
+    <h9>  2023©  |  Developer Telinfor </h9>
+</footer>
+</body>
+</html>
+
+

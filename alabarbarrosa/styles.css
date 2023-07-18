@@ -1,0 +1,98 @@
+
+body{
+    background-color: rgb(239, 234, 214);
+    height: 100%;
+}
+
+.centered-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+
+/*Titulos*/
+
+ h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+ }
+ 
+/*Imagen cabecera*/ 
+.custom-image {
+     width: 300px; /* Ancho de 300px */
+     height: auto; /* Altura automática proporcional */
+    
+}
+
+/*Contenedor central*/
+.centered-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     min-height: 100vh;
+     text-align: center;
+ }
+
+ /*Colores de los botones*/
+.btn-primary {
+    background-color: #ee813c; /*cambia el color del boton*/
+    border-color: #ee813c;
+}
+
+.btn.btn-primary:hover {
+    background-color: #ef92d8; /*cambia el color del boton*/
+    border-color: #ef92d8;
+}
+
+.btn.btn-primary:focus {
+    background-color: #ef92d8; /*cambia el color del boton*/
+    border-color: #ef92d8;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column; /*posiciona los elementos uno encima de otro*/
+}
+
+/*Colores campo numero celular*/
+.form-control:focus {
+    border-color: #ee813c; /* Cambia el color del borde en foco */
+    box-shadow: 0 0 0 0.25rem rgba(238, 129, 60, 0.25); /* Cambia el color de la sombra en foco */
+}
+
+Texto bases y condiciones*/
+/*.text-start {
+    text-align: justify;
+    text-align: left;
+    padding: 50px;
+
+}
+
+/*Estilo del quiz*/
+.full-width {
+    width: 100%;
+    padding: 10px;
+
+  }
+/*Colores botones del quiz*/
+.btn-outline-danger {
+    border-color: #ee813c;
+    color: #ee813c;
+   
+
+}
+
+.agradecimientos {
+text-align: center;
+
+}
+
+.additional-class {
+    padding: 10, 10;
+    text-align: center;
+}
